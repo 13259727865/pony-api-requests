@@ -2,6 +2,7 @@
 # -*-coding:utf-8 -*-
 
 #Author:Gemini
+import json
 import os
 
 import yaml
@@ -18,9 +19,9 @@ class ReadYaml:
         if filetype == 'address':
             self.path = os.path.dirname(os.path.dirname(__file__))+"/yaml/config/address.yaml"
         elif filetype == 'api':
-            self.path = os.path.dirname(os.path.dirname(__file__))+"/yaml/apiyaml/"+filename
+            self.path = os.path.dirname(os.path.dirname(__file__))+"/yaml/api/"+filename
         elif filetype == 'data':
-            self.path = os.path.dirname(os.path.dirname(__file__))+"/yaml/datayaml/"+filename
+            self.path = os.path.dirname(os.path.dirname(__file__))+"/yaml/data/"+filename
         else:
             print("未找到对应类型："+filetype)
 
@@ -38,6 +39,9 @@ class ReadYaml:
 
 
 
+
+
+
 if __name__ == '__main__':
     a = ReadYaml('address')
-    print(type(a.readyaml()))
+    a.readyaml()
