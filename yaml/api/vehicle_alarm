@@ -1,1 +1,2 @@
 get_alarm: "/ponysafety2/a/report/getalarminfopage"
+get_alarm_count: "/ponysafety2/a/report/getalarmcount"

@@ -33,11 +33,11 @@ class HttpClient:
         请求接口方法
         :return: 接口response所有内容
         """
-        print("输出：",headers)
+        # print("输出：",headers)
         com_url = self.host+url
         headers.update(self.default_head)
-        print(com_url,headers,body)
-        print(com_url, headers, body,method)
+        # print(com_url,headers,body)
+        # print(com_url, headers, body,method)
         if method =="get":
             if sid:
                 # r = self.session.
