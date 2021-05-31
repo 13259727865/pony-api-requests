@@ -11,6 +11,7 @@ from page.vehicle_alarm import Alarm
 
 class VehicleAlarm:
     def __init__(self,user,pw):
+        #业务接口调用前，获取到登录用户session_id
         self.username = user
         self.password = pw
         self.login_rec = Login()
