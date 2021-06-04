@@ -1,6 +1,5 @@
 requests
-allure
-yaml
+allure-pytest
 jsonpath
 pymysql
 pytest
