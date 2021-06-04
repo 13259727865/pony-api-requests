@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16e7951c-ab23-464f-b461-72395e5d14d2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="16e7951c-ab23-464f-b461-72395e5d14d2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,8 +149,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-87" />
+    <option name="y" value="65" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -327,8 +325,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="0" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="2058" y="9" width="1936" height="1056" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16385669" />
       <window_info anchor="bottom" id="TODO" order="6" />

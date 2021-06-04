@@ -18,9 +18,9 @@ class TestAlarm:
 
     # @pytest.mark.parametrezr("user,pw",data["login"])
     def setup_class(self):
-        con = pymysql.connect(host="121.40.214.242", port=3306, user="dev", password="productdev123")
-        print("链接数据库")
-        self.cur = con.cursor()
+        # con = pymysql.connect(host="121.40.214.242", port=3306, user="dev", password="productdev123")
+        # print("链接数据库")
+        # self.cur = con.cursor()
         params = data["login"]
         # user = "hanc"
         # pw = "NWVhN3Vtc2RmYnRhZWRtaXBuMDVzcWR6dzZxaWh2cXA4Mw=="
@@ -28,8 +28,8 @@ class TestAlarm:
         self.alarm = VehicleAlarm(params[0][0], params[0][1])
 
     def teardown_class(self):
-        self.cur.close()
-
+        # self.cur.close()
+        pass
     @allure.story("时间，车辆输入")
     @pytest.mark.parametrize("start_time,end_time,vehicle_id,count", data["get_alarm"], ids=data["ids"])
     def test_get_alarm(self, start_time, end_time, vehicle_id, count):
