@@ -9,6 +9,7 @@ from base.readyaml import ReadYaml
 
 #实例化读取配置文件对象
 # from page.login import Login
+from logs_config import root_log
 
 url_data = ReadYaml().readyaml()
 
@@ -38,12 +39,10 @@ class HttpClient:
         headers.update(self.default_head)
         # print(com_url,headers,body)
         # print(com_url, headers, body,method)
+        root_log.info(f"url:{com_url},method={method}headers:{headers},body={body}")
         if method =="get":
-            if sid:
-                # r = self.session.
-                pass
-            else:
-                r = requests.get(url=com_url,headers=headers,params=body)
+
+            r = requests.get(url=com_url,headers=headers,params=body)
             # return r.json()
         elif method=="post":
 
