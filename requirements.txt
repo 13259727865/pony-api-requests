@@ -3,3 +3,4 @@ allure-pytest
 jsonpath
 pymysql
 pytest
+PyYaml
