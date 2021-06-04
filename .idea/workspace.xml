@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16e7951c-ab23-464f-b461-72395e5d14d2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/case/get_alarm/test_alarm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yaml/Snipaste_2021-05-31_14-03-34.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_action/vehicle_alarm.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_action/vehicle_alarm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/mainpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/mainpage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/readyaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/readyaml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/vehicle_alarm.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/vehicle_alarm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yaml/data/login_data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/yaml/data/login_data.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="16e7951c-ab23-464f-b461-72395e5d14d2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,8 +80,8 @@
       <file leaf-file-name="test_alarm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/case/get_alarm/test_alarm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="188">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#61#76#0" expanded="true" />
               </folding>
@@ -146,9 +133,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="58" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -317,17 +303,17 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1922" y="15" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16385669" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16385669" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37799564" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37799564" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" weight="0.30610022" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49947312" visible="true" weight="0.30610022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -566,8 +552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/case/get_alarm/test_alarm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="188">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#61#76#0" expanded="true" />
           </folding>
