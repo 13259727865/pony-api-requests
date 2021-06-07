@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16e7951c-ab23-464f-b461-72395e5d14d2" name="Default" comment="" />
+    <list default="true" id="16e7951c-ab23-464f-b461-72395e5d14d2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,14 +76,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_alarm.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_alarm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/case/get_alarm/test_alarm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="15" />
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="14" />
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="364">
+              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+              <folding>
+                <element signature="e#61#76#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -144,14 +146,14 @@
         <option value="$PROJECT_DIR$/base/logs_config.py" />
         <option value="$PROJECT_DIR$/base/mainpage.py" />
         <option value="$PROJECT_DIR$/logs_config.py" />
-        <option value="$PROJECT_DIR$/case/get_alarm/test_alarm.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/case/get_alarm/test_alarm.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-87" />
-    <option name="y" value="65" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -219,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for test_alarm.TestAlarm.test_get_alarm">
+  <component name="RunManager" selected="Python tests.py.test for test_alarm.TestAlarm">
     <configuration name="readyaml" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pony-api-requests" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,8 +275,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.py.test for test_alarm.TestAlarm.test_get_alarm" />
         <item itemvalue="Python tests.py.test for test_alarm.TestAlarm" />
+        <item itemvalue="Python tests.py.test for test_alarm.TestAlarm.test_get_alarm" />
         <item itemvalue="Python.readyaml" />
       </list>
     </recent_temporary>
@@ -293,9 +295,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_alarm_TestAlarm_test_get_alarm - 2021.06.02 at 16h 42m 54s.xml">
-      <configuration name="py.test for test_alarm.TestAlarm.test_get_alarm" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.06.02 at 16h 56m 39s.xml">
       <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
     </history-entry>
@@ -323,9 +322,13 @@
     <history-entry file="py_test_for_test_alarm_TestAlarm_test_get_alarm - 2021.06.03 at 20h 37m 13s.xml">
       <configuration name="py.test for test_alarm.TestAlarm.test_get_alarm" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_for_test_alarm_TestAlarm - 2021.06.04 at 17h 03m 06s.xml">
+      <configuration name="py.test for test_alarm.TestAlarm" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2058" y="9" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16385669" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -425,6 +428,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding>
+            <element signature="e#61#76#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -545,16 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/get_alarm/test_alarm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="15" />
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="14" />
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yaml/api/login_api.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -573,6 +569,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/get_alarm/test_alarm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="e#61#76#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -18,7 +18,7 @@ class TestAlarm:
 
     # @pytest.mark.parametrezr("user,pw",data["login"])
     def setup_class(self):
-        # con = pymysql.connect(host="121.40.214.242", port=3306, user="dev", password="productdev123")
+        # con = pymysql.connect(host="127.0.0.1", port=3306, user="dev", password="productdev123")
         # print("链接数据库")
         # self.cur = con.cursor()
         params = data["login"]
