@@ -39,7 +39,7 @@ class HttpClient:
         headers.update(self.default_head)
         # print(com_url,headers,body)
         # print(com_url, headers, body,method)
-        root_log.info(f"url:{com_url},method={method}headers:{headers},body={body}")
+        root_log.info(f"url:{com_url},method={method}headers:{headers},body={body}钩子触发器")
         if method =="get":
 
             r = requests.get(url=com_url,headers=headers,params=body)
