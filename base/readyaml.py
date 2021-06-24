@@ -8,6 +8,9 @@ import allure
 import yaml
 
 #读取yaml文件
+from logs_config import root_log
+
+
 class ReadYaml:
 
     def __init__(self,filetype='address',filename=None):
@@ -17,13 +20,16 @@ class ReadYaml:
         """
         with allure.step(f"读取{filetype,filename}"):
             if filetype == 'address':
+                root_log.info("读取访问ip")
                 self.path = os.path.dirname(os.path.dirname(__file__))+"/yaml/config/address.yaml"
             elif filetype == 'api':
+                root_log.info("读取访问接口url")
                 self.path = os.path.dirname(os.path.dirname(__file__))+"/yaml/api/"+filename
             elif filetype == 'data':
+                root_log.info("读取接口参数")
                 self.path = os.path.dirname(os.path.dirname(__file__))+"/yaml/data/"+filename
             else:
-                print("未找到对应类型："+filetype)
+                root_log.error("未找到对应类型："+filetype)
 
 
     @allure.story("读取yaml")
@@ -33,13 +39,14 @@ class ReadYaml:
         """
         try:
             with open(self.path,"r",encoding="utf-8")as f:
+                root_log.info("读取yaml完成")
                 return yaml.safe_load(f)
         except FileNotFoundError:
-            print("no sush file")
+            root_log.error("no sush file")
         except yaml.parser.ParserError:
-            print("yaml文件错误！！")
+            root_log.error("yaml文件错误！！")
         except:
-            print("参数有误！！",)
+            root_log.error("参数有误！")
 
     # def dumpyaml(self):
     #     a = {"login":{"user":()}}

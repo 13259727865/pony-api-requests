@@ -47,7 +47,7 @@ class VehicleAlarm:
 
 if __name__ == '__main__':
     a = VehicleAlarm("hanc","NWVhN3Vtc2RmYnRhZWRtaXBuMDVzcWR6dzZxaWh2cXA4Mw==")
-    r = a.vehicel_alarm(start_time="2021-05-25 00:00:00", end_time="2021-05-25 23:59:59",
+    r = a.vehicle_alarm(start_time="2021-05-25 00:00:00", end_time="2021-05-25 23:59:59",
                         vehicle_id=["242", "187", "199"])
     print(r.json())
     r1 = a.vehicle_alarm_count(start_time="2021-05-25 00:00:00", end_time="2021-05-25 23:59:59",

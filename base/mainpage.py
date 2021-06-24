@@ -40,14 +40,18 @@ class HttpClient:
         # print(com_url,headers,body)
         # print(com_url, headers, body,method)
         root_log.info(f"url:{com_url},method={method}headers:{headers},body={body}钩子触发器")
-        if method =="get":
+        try:
+            if method =="get":
+                root_log.info("请求get接口")
+                r = requests.get(url=com_url,headers=headers,params=body)
 
-            r = requests.get(url=com_url,headers=headers,params=body)
-            # return r.json()
-        elif method=="post":
-
-            r = requests.post(url = com_url,headers=headers,json=body)
-        return r
+                # return r.json()
+            elif method=="post":
+                root_log.info("请求get接口")
+                r = requests.post(url = com_url,headers=headers,json=body)
+            return r
+        except:
+            root_log.error("参数有误！")
     
 
 
