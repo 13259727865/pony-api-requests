@@ -29,3 +29,4 @@ class Login(mainpage.HttpClient):
 if __name__ == '__main__':
     a = Login().login("hanc","NWVhN3Vtc2RmYnRhZWRtaXBuMDVzcWR6dzZxaWh2cXA4Mw==")
     print(a.cookies.get_dict())
+    print("测试！")
